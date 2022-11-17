@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  background: rgb(27, 172, 92);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  background: rgb(42, 50, 124);
+  position: relative;
+}
+
+.dragable {
+  position: relative;
+  background: rgb(117, 159, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
